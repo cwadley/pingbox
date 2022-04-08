@@ -1,0 +1,2 @@
+# pingbox
+Simple ping webserver
