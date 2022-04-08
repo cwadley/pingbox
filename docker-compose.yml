@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pingbox:
+    image: cwadley/pingbox:latest
+    container_name: pingbox
+    ports:
+      - 8080:8080
+    restart: unless-stopped
